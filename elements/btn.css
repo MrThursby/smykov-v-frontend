@@ -1,0 +1,14 @@
+/* Colors */
+
+
+.ooo {
+  background: theme('colors.red.500');
+}
+
+.btn-normal.btn-primary {
+  @apply bg-primary-600 hover:bg-primary-700;
+}
+
+/* Styles */
+
+/* Sizes */

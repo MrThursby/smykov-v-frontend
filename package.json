@@ -1,5 +1,5 @@
 {
-  "name": "smykov-v",
+  "name": "smykov-v-frontend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,13 +10,21 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/proxy": "^2.0.1",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.5"
+    "nanoid": "^3.1.16",
+    "nuxt": "^2.14.5",
+    "postcss-loader": "^4.0.3",
+    "tailwindcss-shadow-outline-colors": "0.0.8",
+    "v-click-outside": "^3.1.2"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.5",
     "@nuxt/typescript-build": "^2.0.3",
-    "@nuxtjs/tailwindcss": "^3.0.2"
+    "@nuxtjs/tailwindcss": "^3.0.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3"
   }
 }
